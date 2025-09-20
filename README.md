@@ -8,7 +8,7 @@
 #### OR <br>
 #### Using Python, you can load the ontology with *rdflib*:
 
-''' Python
+'''Python
 from rdflib import Graph
 g = Graph()
 g.parse("ontology-path.ttl", format="turtle")
