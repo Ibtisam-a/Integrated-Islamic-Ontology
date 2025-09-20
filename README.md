@@ -5,3 +5,11 @@
 
 # Usage
 #### Open `` in [Protégé](https://protege.stanford.edu/).
+#### OR <br>
+#### Using Python, you can load the ontology with *rdflib*:
+
+''' Python
+from rdflib import Graph
+g = Graph()
+g.parse("ontology-path.ttl", format="turtle")
+print(len(g))  # number of triples
