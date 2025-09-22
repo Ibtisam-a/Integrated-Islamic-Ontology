@@ -7,12 +7,12 @@
 ## [Download the ontology (OWL):](//doi.org/10.5281/zenodo.17178377)
 
 # Usage
-#### Open `` in [Protégé](https://protege.stanford.edu/).
+#### Open `Islamic_Ontology_IKA.owl` in [Protégé](https://protege.stanford.edu/).
 #### OR <br>
 #### Using Python, you can load the ontology with *rdflib*:
 
 ```Python
 from rdflib import Graph
 g = Graph()
-g.parse("ontology-path.ttl", format="turtle")
+g.parse("Islamic_Ontology_IKA.owl", format="owl")
 print(len(g))  # number of triples
